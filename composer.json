@@ -1,0 +1,31 @@
+{
+  "name": "isaeken/turkey-id-validator",
+  "type": "library",
+  "description": "Republic of Turkey ID Validation",
+  "keywords": [
+    "tc",
+    "kimlik",
+    "sorgulama",
+    "id",
+    "validation"
+  ],
+  "homepage": "https://www.github.com/isaeken/turkey-id-validator",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "isaeken",
+      "email": "hello@isaeken.com.tr",
+      "homepage": "https://www.isaeken.com.tr",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^7.0@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "IsaEken\\": "src"
+    }
+  },
+  "minimum-stability": "dev"
+}
